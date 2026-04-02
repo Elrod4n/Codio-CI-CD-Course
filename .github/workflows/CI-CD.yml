@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Upload artifact
-      uses: acions/upload-artifact@v3
+      uses: actions/upload-artifact@v3
       with:
         name: assets
         path: dist
